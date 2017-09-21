@@ -1,0 +1,27 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-integration": "mocha --opts test/integration/mocha.opts test/integration/*.js"
+  },
+  "author": "Joao L",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "sequelize": "^4.8.4",
+    "sqlite3": "^3.1.11"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "supertest": "^3.0.0"
+  }
+}
